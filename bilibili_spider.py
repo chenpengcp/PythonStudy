@@ -4,9 +4,9 @@ import pymysql
 
 
 def insert_data(title, play, comment, favorites, video_review, team, party):
-    db = pymysql.connect(host="118.190.199.151",
-                         user="cp",
-                         passwd="1234",
+    db = pymysql.connect(host="*",
+                         user="*",
+                         passwd="*",
                          port=3306,
                          db="peo",
                          charset='utf8')
